@@ -6,3 +6,12 @@
     menuToggle.classList.toggle('active');
     navLinks.classList.toggle('active');
   });
+
+
+  // copyright details
+
+  let author = "Itemearau ThankGod";
+  let autorsAlias = "Tamara";
+  let year = new Date().getFullYear();
+
+document.getElementById("copyright").textContent = `© ${year} ${author} | All rights reserved.`;
